@@ -99,7 +99,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^3 || ^4 || ^5, @rollup/pluginutils@npm:^5.0.1":
+"@rollup/pluginutils@npm:^5.0.1":
   version: 5.0.2
   resolution: "@rollup/pluginutils@npm:5.0.2"
   dependencies:
@@ -140,24 +140,6 @@ __metadata:
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
   checksum: a4a97ec07d7ea112c517036882b2ac22f3109b7b19077dc656316d07d308438aac28e4d9746dc4d84bf6b1e75b4a7b0a5f3cb30592419f128ca9a8cee3bcfa17
-  languageName: node
-  linkType: hard
-
-"acorn-jsx@npm:^5.3.2":
-  version: 5.3.2
-  resolution: "acorn-jsx@npm:5.3.2"
-  peerDependencies:
-    acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: c3d3b2a89c9a056b205b69530a37b972b404ee46ec8e5b341666f9513d3163e2a4f214a71f4dfc7370f5a9c07472d2fd1c11c91c3f03d093e37637d95da98950
-  languageName: node
-  linkType: hard
-
-"acorn@npm:^8.10.0":
-  version: 8.10.0
-  resolution: "acorn@npm:8.10.0"
-  bin:
-    acorn: bin/acorn
-  checksum: 538ba38af0cc9e5ef983aee196c4b8b4d87c0c94532334fa7e065b2c8a1f85863467bb774231aae91613fcda5e68740c15d97b1967ae3394d20faddddd8af61d
   languageName: node
   linkType: hard
 
@@ -835,11 +817,8 @@ __metadata:
     "@rollup/plugin-html": ^1.0.2
     "@rollup/plugin-node-resolve": ^15.1.0
     "@rollup/plugin-typescript": ^11.1.2
-    acorn: ^8.10.0
-    acorn-jsx: ^5.3.2
     preact: ^10.16.0
     rollup: ^3.26.3
-    rollup-plugin-sass: ^1.12.20
     rollup-plugin-scss: ^4.0.0
     sass: ^1.64.0
     tslib: ^2.6.0
@@ -1169,7 +1148,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.22.1, resolve@npm:^1.5.0":
+"resolve@npm:^1.22.1":
   version: 1.22.3
   resolution: "resolve@npm:1.22.3"
   dependencies:
@@ -1182,7 +1161,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.5.0#~builtin<compat/resolve>":
+"resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.3
   resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
   dependencies:
@@ -1210,17 +1189,6 @@ __metadata:
   bin:
     rimraf: bin.js
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
-  languageName: node
-  linkType: hard
-
-"rollup-plugin-sass@npm:^1.12.20":
-  version: 1.12.20
-  resolution: "rollup-plugin-sass@npm:1.12.20"
-  dependencies:
-    "@rollup/pluginutils": ^3 || ^4 || ^5
-    resolve: ^1.5.0
-    sass: ^1.7.2
-  checksum: 6b39ecb18b4206143a0024525c4fb11be7cfc296c29b171d2f064087765e7d8a066104f887e9344d748ed3f71ac55a35219566406ce2019be1202bfc2635fed5
   languageName: node
   linkType: hard
 
@@ -1270,7 +1238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.64.0, sass@npm:^1.7.2":
+"sass@npm:^1.64.0":
   version: 1.64.0
   resolution: "sass@npm:1.64.0"
   dependencies:

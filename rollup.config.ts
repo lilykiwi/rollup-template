@@ -1,6 +1,5 @@
 import typescript from '@rollup/plugin-typescript';
 import alias from '@rollup/plugin-alias';
-import jsx from 'acorn-jsx';
 import nodeResolve from '@rollup/plugin-node-resolve';
 import html from '@rollup/plugin-html';
 import scss from 'rollup-plugin-scss';
@@ -29,5 +28,4 @@ export default {
       title: 'Preact App',
     }),
   ],
-  acornInjectPlugins: [jsx()]
 };

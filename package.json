@@ -1,7 +1,6 @@
 {
   "name": "lilykiwi.xyz",
   "version": "0.0.0",
-  "main": "index.js",
   "author": "lily@lilykiwi.xyz",
   "type": "module",
   "license": "MIT",
@@ -9,8 +8,8 @@
     "preact": "^10.16.0"
   },
   "scripts": {
-    "watch": "rollup -c -w",
-    "build": "rollup -c"
+    "watch": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript -w",
+    "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript"
   },
   "packageManager": "yarn@3.6.1",
   "devDependencies": {
@@ -18,10 +17,7 @@
     "@rollup/plugin-html": "^1.0.2",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-typescript": "^11.1.2",
-    "acorn": "^8.10.0",
-    "acorn-jsx": "^5.3.2",
     "rollup": "^3.26.3",
-    "rollup-plugin-sass": "^1.12.20",
     "rollup-plugin-scss": "^4.0.0",
     "sass": "^1.64.0",
     "tslib": "^2.6.0",

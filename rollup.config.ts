@@ -1,4 +1,4 @@
-import typescript from '@rollup/plugin-typescript';
+import typescript from 'rollup-plugin-typescript2';
 import alias from '@rollup/plugin-alias';
 import nodeResolve from '@rollup/plugin-node-resolve';
 import html from '@rollup/plugin-html';
@@ -10,16 +10,16 @@ export default {
     dir: 'output',
     format: 'umd',
     sourcemap: false,
+    name: 'PreactApp',
   },
   watch: {
+    clearScreen: false,
     include: "src/**",
-    exclude: "node_modules/**",
     chokidar: {
       usePolling: true
     }
   },
   plugins: [
-    typescript(),
     alias({
       entries: [
         { find: 'react', replacement: 'preact/compat' },
@@ -29,6 +29,7 @@ export default {
       ]
     }),
     nodeResolve(),
+    typescript(),
     scss({
       fileName: 'bundle.css'
     }),

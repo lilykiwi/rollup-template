@@ -8,7 +8,15 @@ export default {
   input: 'src/index.tsx',
   output: {
     dir: 'output',
-    format: 'umd'
+    format: 'umd',
+    sourcemap: false,
+  },
+  watch: {
+    include: "src/**",
+    exclude: "node_modules/**",
+    chokidar: {
+      usePolling: true
+    }
   },
   plugins: [
     typescript(),

@@ -1,15 +1,16 @@
-import typescript from 'rollup-plugin-typescript2';
 import alias from '@rollup/plugin-alias';
-import nodeResolve from '@rollup/plugin-node-resolve';
 import html from '@rollup/plugin-html';
+import nodeResolve from '@rollup/plugin-node-resolve';
 import scss from 'rollup-plugin-scss';
+import typescript from 'rollup-plugin-typescript2';
 
 export default {
   input: 'src/index.tsx',
   output: {
-    dir: 'output',
-    format: 'umd',
+    dir: 'output-dev',
+    format: 'es',
     name: 'PreactApp',
+    sourcemap: true,
   },
   watch: {
     clearScreen: false,

@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "module": "ESNext",
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "removeComments": true,
@@ -13,14 +15,6 @@
       "dom.iterable",
       "esnext"
     ],
-    "paths": {
-      "react": [
-        "./node_modules/preact/compat/"
-      ],
-      "react-dom": [
-        "./node_modules/preact/compat/"
-      ]
-    }
   },
   "include": [
     "src"
@@ -29,6 +23,8 @@
     "entryPoints": [
       "src/index.tsx"
     ],
-    "out": "docs"
+    "out": "docs",
+    "githubPages": false,
+    "readme": "none",
   },
 }

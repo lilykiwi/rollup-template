@@ -383,6 +383,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:4.2.11"\
       ],\
       [\
+        "handlebars",\
+        "npm:4.7.8"\
+      ],\
+      [\
         "has",\
         "npm:1.0.3"\
       ],\
@@ -603,6 +607,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:0.6.3"\
       ],\
       [\
+        "neo-async",\
+        "npm:2.6.2"\
+      ],\
+      [\
         "node-gyp",\
         "npm:9.4.0"\
       ],\
@@ -767,6 +775,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:7.0.0"\
       ],\
       [\
+        "source-map",\
+        "npm:0.6.1"\
+      ],\
+      [\
         "source-map-js",\
         "npm:1.0.2"\
       ],\
@@ -845,12 +857,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "virtual:7101336e83d7b9b92c3bae57fb215ec32085373860511f0e790038c939131081843646a10c4532469445a1532eb59aa2d296a4b36a9cf9017a560fb4d4a54fb8#npm:0.24.8"\
       ],\
       [\
+        "typedoc-plugin-markdown",\
+        "virtual:7101336e83d7b9b92c3bae57fb215ec32085373860511f0e790038c939131081843646a10c4532469445a1532eb59aa2d296a4b36a9cf9017a560fb4d4a54fb8#npm:3.15.4"\
+      ],\
+      [\
         "typescript",\
         "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"\
       ],\
       [\
         "uc.micro",\
         "npm:1.0.6"\
+      ],\
+      [\
+        "uglify-js",\
+        "npm:3.17.4"\
       ],\
       [\
         "underscore",\
@@ -887,6 +907,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [\
         "wide-align",\
         "npm:1.1.5"\
+      ],\
+      [\
+        "wordwrap",\
+        "npm:1.0.0"\
       ],\
       [\
         "wrap-ansi",\
@@ -930,6 +954,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.65.1"],\
             ["tslib", "npm:2.6.1"],\
             ["typedoc", "virtual:7101336e83d7b9b92c3bae57fb215ec32085373860511f0e790038c939131081843646a10c4532469445a1532eb59aa2d296a4b36a9cf9017a560fb4d4a54fb8#npm:0.24.8"],\
+            ["typedoc-plugin-markdown", "virtual:7101336e83d7b9b92c3bae57fb215ec32085373860511f0e790038c939131081843646a10c4532469445a1532eb59aa2d296a4b36a9cf9017a560fb4d4a54fb8#npm:3.15.4"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
@@ -2087,6 +2112,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["handlebars", [\
+        ["npm:4.7.8", {\
+          "packageLocation": "./.yarn/cache/handlebars-npm-4.7.8-25244c2c82-00e68bb5c1.zip/node_modules/handlebars/",\
+          "packageDependencies": [\
+            ["handlebars", "npm:4.7.8"],\
+            ["minimist", "npm:1.2.8"],\
+            ["neo-async", "npm:2.6.2"],\
+            ["source-map", "npm:0.6.1"],\
+            ["uglify-js", "npm:3.17.4"],\
+            ["wordwrap", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["has", [\
         ["npm:1.0.3", {\
           "packageLocation": "./.yarn/cache/has-npm-1.0.3-b7f00631c1-b9ad53d53b.zip/node_modules/has/",\
@@ -2404,6 +2443,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.65.1"],\
             ["tslib", "npm:2.6.1"],\
             ["typedoc", "virtual:7101336e83d7b9b92c3bae57fb215ec32085373860511f0e790038c939131081843646a10c4532469445a1532eb59aa2d296a4b36a9cf9017a560fb4d4a54fb8#npm:0.24.8"],\
+            ["typedoc-plugin-markdown", "virtual:7101336e83d7b9b92c3bae57fb215ec32085373860511f0e790038c939131081843646a10c4532469445a1532eb59aa2d296a4b36a9cf9017a560fb4d4a54fb8#npm:3.15.4"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
@@ -2716,6 +2756,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/negotiator-npm-0.6.3-9d50e36171-b8ffeb1e26.zip/node_modules/negotiator/",\
           "packageDependencies": [\
             ["negotiator", "npm:0.6.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["neo-async", [\
+        ["npm:2.6.2", {\
+          "packageLocation": "./.yarn/cache/neo-async-npm-2.6.2-75d6902586-deac9f8d00.zip/node_modules/neo-async/",\
+          "packageDependencies": [\
+            ["neo-async", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3176,6 +3225,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["source-map", [\
+        ["npm:0.6.1", {\
+          "packageLocation": "./.yarn/cache/source-map-npm-0.6.1-1a3621db16-59ce8640cf.zip/node_modules/source-map/",\
+          "packageDependencies": [\
+            ["source-map", "npm:0.6.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["source-map-js", [\
         ["npm:1.0.2", {\
           "packageLocation": "./.yarn/cache/source-map-js-npm-1.0.2-ee4f9f9b30-c049a7fc4d.zip/node_modules/source-map-js/",\
@@ -3369,6 +3427,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["typedoc-plugin-markdown", [\
+        ["npm:3.15.4", {\
+          "packageLocation": "./.yarn/cache/typedoc-plugin-markdown-npm-3.15.4-56fb68d17a-0ba1973271.zip/node_modules/typedoc-plugin-markdown/",\
+          "packageDependencies": [\
+            ["typedoc-plugin-markdown", "npm:3.15.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7101336e83d7b9b92c3bae57fb215ec32085373860511f0e790038c939131081843646a10c4532469445a1532eb59aa2d296a4b36a9cf9017a560fb4d4a54fb8#npm:3.15.4", {\
+          "packageLocation": "./.yarn/__virtual__/typedoc-plugin-markdown-virtual-77cd8490f8/0/cache/typedoc-plugin-markdown-npm-3.15.4-56fb68d17a-0ba1973271.zip/node_modules/typedoc-plugin-markdown/",\
+          "packageDependencies": [\
+            ["typedoc-plugin-markdown", "virtual:7101336e83d7b9b92c3bae57fb215ec32085373860511f0e790038c939131081843646a10c4532469445a1532eb59aa2d296a4b36a9cf9017a560fb4d4a54fb8#npm:3.15.4"],\
+            ["@types/typedoc", null],\
+            ["handlebars", "npm:4.7.8"],\
+            ["typedoc", "virtual:7101336e83d7b9b92c3bae57fb215ec32085373860511f0e790038c939131081843646a10c4532469445a1532eb59aa2d296a4b36a9cf9017a560fb4d4a54fb8#npm:0.24.8"]\
+          ],\
+          "packagePeers": [\
+            "@types/typedoc",\
+            "typedoc"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["typescript", [\
         ["patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071", {\
           "packageLocation": "./.yarn/cache/typescript-patch-bd21d74a9d-f53bfe97f7.zip/node_modules/typescript/",\
@@ -3383,6 +3464,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/uc.micro-npm-1.0.6-36f3dc2fc4-6898bb5563.zip/node_modules/uc.micro/",\
           "packageDependencies": [\
             ["uc.micro", "npm:1.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["uglify-js", [\
+        ["npm:3.17.4", {\
+          "packageLocation": "./.yarn/cache/uglify-js-npm-3.17.4-58d4ab56aa-7b3897df38.zip/node_modules/uglify-js/",\
+          "packageDependencies": [\
+            ["uglify-js", "npm:3.17.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3468,6 +3558,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["wide-align", "npm:1.1.5"],\
             ["string-width", "npm:4.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["wordwrap", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/wordwrap-npm-1.0.0-ae57a645e8-2a44b27881.zip/node_modules/wordwrap/",\
+          "packageDependencies": [\
+            ["wordwrap", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\

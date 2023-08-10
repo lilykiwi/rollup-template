@@ -6,19 +6,24 @@
   "license": "MIT",
   "scripts": {
     "watch": "yarn run build --watch",
-    "build": "rollup --config rollup.config.ts --configPlugin rollup-plugin-typescript2"
+    "build": "rollup --config rollup.config.ts --configPlugin rollup-plugin-typescript2",
+    "doc": "typedoc"
   },
   "packageManager": "yarn@3.6.1",
   "devDependencies": {
+    "@daybrush/jsdoc": "^0.4.7",
+    "@preact/signals": "^1.2.0",
     "@rollup/plugin-alias": "^5.0.0",
     "@rollup/plugin-html": "^1.0.2",
     "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-url": "^8.0.1",
     "preact": "^10.16.0",
-    "rollup": "^3.26.3",
+    "rollup": "^3.27.2",
     "rollup-plugin-scss": "^4.0.0",
     "rollup-plugin-typescript2": "^0.35.0",
-    "sass": "^1.64.0",
-    "tslib": "^2.6.0",
+    "sass": "^1.64.2",
+    "tslib": "^2.6.1",
+    "typedoc": "^0.24.8",
     "typescript": "^5.1.6"
   }
 }

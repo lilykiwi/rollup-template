@@ -4,8 +4,15 @@
     "jsxImportSource": "preact",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "baseUrl": "./",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "baseUrl": "src/",
     "rootDir": "./",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "paths": {
       "react": [
         "./node_modules/preact/compat/"
@@ -14,5 +21,14 @@
         "./node_modules/preact/compat/"
       ]
     }
-  }
+  },
+  "include": [
+    "src"
+  ],
+  "typedocOptions": {
+    "entryPoints": [
+      "src/index.tsx"
+    ],
+    "out": "docs"
+  },
 }

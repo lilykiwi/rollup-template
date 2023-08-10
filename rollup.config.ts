@@ -9,12 +9,11 @@ export default {
   output: {
     dir: 'output',
     format: 'umd',
-    sourcemap: false,
     name: 'PreactApp',
   },
   watch: {
     clearScreen: false,
-    include: "src/**",
+    include: "src/**/*",
     chokidar: {
       usePolling: true
     }
@@ -35,6 +34,10 @@ export default {
     }),
     html({
       title: 'Preact App',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width,initial-scale=1' }
+      ]
     }),
   ],
 };
